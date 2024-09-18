@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology Computer</title>
+    <link rel="stylesheet" type="text/css" href="estiloproyecto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/635ad548e0.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+	<div class="Contenedor_Menu">
+                <!--Panel del ícono-->
+                <div class="Contenedor_Menu_Logo">
+                    <a href="#"></a><img src="imagenes/imagenjuego.jpg" alt="No se pudo mostrar la imagen" title="Tiendas Tuti">
+                </div>
+
+                <!--Panel de navegación-->
+                
+                <nav>
+                    <ul class="opciones_Menu">
+                        <a href="#"><i class="fa-solid fa-house"></i> INICIO</a>
+                        <a href="#"><i class="fa-solid fa-circle-info"></i> Tuti INFORMA</a>
+                        <a href="#"><i class="fa-solid fa-people-group"></i> SOBRE NOSOTROS</a>
+                        <a href="#"><i class="fa-solid fa-location-dot"></i> ENCUÉNTRANOS</a>
+                        <a href="#"><i class="fa-solid fa-toolbox"></i> TRABAJA CON NOSOTROS</a>
+                        <a href="#"><i class="fa-solid fa-building"></i> NUEVOS ESPACIOS</a>
+                    </ul>
+
+                    <!--Boton de menu-->
+                    <span class="btn_Menu">
+                        <i class="fa fa-bars"></i>
+                    </span>
+                </nav>
+            </div>
+
+<header>   
+  <div class="contenedor-textos">
+      <h1 style="font-family: 'DM Sans', sans-serif;">Los mejores videojuegos y consolas</h1>      
+  </div>
+   <div class="swiper">
+           <!-- Additional required wrapper -->
+           <div class="swiper-wrapper">
+             <!-- Slides -->
+             <div class="swiper-slide"><img src="imagenes/imagen1.jpg"></div>
+             <div class="swiper-slide"><img src="imagenes/imagen2.jpg"></div>
+             <div class="swiper-slide"><img src="imagenes/imagen3.jpg"></div>
+
+           <!-- If we need pagination -->
+           <div class="swiper-pagination"></div>
+         
+           <!-- If we need navigation buttons -->
+           <div class="swiper-button-prev"></div>
+           <div class="swiper-button-next"></div>
+         
+           <!-- If we need scrollbar -->
+           <div class="swiper-scrollbar"></div>
+         </div>	 
+  </header>  
+  <section>
+  <article class="contenidoInformativo">
+  <h1 class="contenidoInformativo___titulo">¿Porque elegirnos?</h1>
+  <p class="contenidoInformativo___parrafo">Somos el término adecuado para tu negocio. Tenemos la experiencia y el conocimiento para ofrecer servicios de consultoría, asesoría, capacitación, entrenamiento, y auditorías imparciales a un precio justo. Con nosotros te sentirás escuchado. Atendemos los requisitos de nuestros clientes y brindamos la solución adecuada y personalizada que mejor se ajuste a tu necesidad. Cuidamos tu negocio como si fuera nuestro. Nos interesamos en que tu empresa alcance su excelencia operaciona
+  </p>  
+  </article>
+  </section>
+  <h1 style="text-align: center; font-size: 30px; font-family: 'DM Sans', sans-serif;">Conoce nuestros servicios</h1>  
+  <div class="contenedorServicios">
+  <div variable="contenedorServicios__caja">
+  <footer>
+  <div class="contenedorfooter">
+  <div variable="contenedorfooter__caja">
+  <h2>Contacto</h2>
+  <ul style="list-style: none;">
+  <li><i class="fas fa-map-pin"></i>Av. del Bombero Frente a Ciudadela Los Ceibos. Guayaquil</li> 
+  </ul>
+  <ul style="list-style: none;">
+    <li><i class="fas fa-phone-alt"></i> 0991168710</li>
+  </ul>
+  <ul style="list-style: none;">
+    <li><i class="fas fa-mail-bulk"></i>correo@correo.com</li>
+  </ul>
+  </div>
+  <div variable="contenedorfooter__caja">            
+    <h2>Nosotros</h2>       
+    <p>Somos un equipo de tecnicos expertos que busca brindar soluciones informaticas efecientes a todo tipo de empresas con el objetivo de brindar un buen servicio de calidad y satisfacer a nuestros clientes.
+</p>
+ </div>
+ <div variable="contenedorfooter__caja">            
+    <h2>Redes Sociales</h2>  
+    <div style="text-align:center; font-size: 30px;">     
+    <i class="fab fa-facebook"></i> <i class="fab fa-instagram"></i> <i class="fab fa-twitter"></i>
+    </div>   
+  </div>
+  </footer>
+  <script>
+  const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+ 
+                const hamburger = document.querySelector('.btn_Menu');
+                const menu = document.querySelector('.opciones_Menu');
+                
+                hamburger.addEventListener('click',()=>{
+                    menu.classList.toggle('show');
+                });
+
+</script>
+  <a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+</body>
+</html>
